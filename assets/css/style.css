@@ -1,10 +1,15 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Exo:wght@100;200;300;400;500;600;700&family=Major+Mono+Display&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
 /* -------------------------------------------------------------------Colors */
 
 .bg-color-name-title {
     background-color: #180A3E;
     background-color: #221D2E;
+}
+
+.bg-color-three-reasons {
+    background-color: #fff;
 }
 
 .ui-menu-color-home {
@@ -33,7 +38,9 @@
 }
 
 /* -------------------------------------------------------------------Special paddings/margins/text */
-
+body {
+    font-family: "Roboto", sans-serif;
+}
 h1,
 h2,
 h3,
@@ -57,6 +64,26 @@ h4 {
 
 .inline-block {
     display: inline-block;
+    font-family: "Roboto",sans-serif;
+    font-weight: 100;
+    font-size: inherit;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /* -------------------------------------------------------------------Heading */
@@ -204,4 +231,22 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/* -------------------------------------------------------------------Three reaasons */
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #B84A30;
+}
+
+.three-reasons-heading {
+    font-family: "Major Mono Display", monospace;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.mono-med {
+    font-family: "Roboto Mono", monospace;
+    font-weight: lighter;
 }
