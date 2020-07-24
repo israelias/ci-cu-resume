@@ -3,13 +3,27 @@
 
 /* -------------------------------------------------------------------Colors */
 
+
 .bg-color-name-title {
     background-color: #180A3E;
     background-color: #221D2E;
+    background-color: #27274d;
+}
+
+.bg-color-logo {
+    background-color: #27274d;
+}
+
+.bg-color-profile {
+    background-color: #f4f4f4;
 }
 
 .bg-color-three-reasons {
-    background-color: #fff;
+    background-color: #B84A30;
+}
+
+.bg-color-personal-info {
+    background-color: #f4f4f4;
 }
 
 .ui-menu-color-home {
@@ -40,6 +54,7 @@
 /* -------------------------------------------------------------------Special paddings/margins/text */
 body {
     font-family: "Roboto", sans-serif;
+    background-color: #27274d;
 }
 h1,
 h2,
@@ -76,7 +91,7 @@ h4 {
 .section-column {
     display: table-cell;
     padding: 0 30px 30px;
-    float: none;
+    float: left;
 }
 
 .section-heading {
@@ -86,26 +101,135 @@ h4 {
     margin-bottom: 40px;
 }
 
+.container-border {
+    /*right: 10px;*/
+    border-right: 10px solid #27274d;
+}
+
 /* -------------------------------------------------------------------Heading */
 
 header {
     margin: 0;
 }
 
+.top-container {
+    background-color: #27274d;
+    background-size: cover;
+}
+
 .heading {
     margin-left: 50px;
 }
 
-.logo {
-    background: url("../images/joem_color4_lg_white1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+.profile-heading {
+    margin-left: 0px;
+}
 
+.profile {
+    text-align: center;
+}
+
+.img-container {
+    font-size: 0;
+    /*background-color: #27274d;*/
+}
+
+#img {
+    margin: 0;
+}
+
+.bg-248 {
+    height: 248px;
+}
+
+#main-nav {
+    margin: 0;
+}
+
+#main-nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.callout {
+    /*padding: 0;*/
+}
+
+.callout-2 {
+    height: 120px;
+    bottom: 0px;
+}
+
+.callout-container {
+    text-align: center;
+    padding: 0;
+}
+
+.ui-menu-color-profile {
+    background: url("../images/joem_color4_lg_white1.jpg");
+    /*background-position: top;*/
+    /*border: 10px solid #ffffff;*/
+    /*height: 200px;*/
+    /*width: 200px;*/
+    /*border-radius: 50%;*/
+
+}
+
+
+.img-container {
+    text-align: center;
+    padding: 0;
+    height: 368px;
+
+    /*transition: all .5s ease-in-out;*/
+    /*-moz-transition: all .5s ease-in-out;*/
+    /*-webkit-transition: all .5s ease-in-out;*/
+
+
+    /*position: relative;*/
+    /*width: 200px;*/
+}
+
+.img-item {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    /*height: 180px;*/
+    clear: both;
+    height: auto;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    bottom: 225px;
+    left: 10px;
+    z-index: 1;
+
+}
+
+
+.img-item a {
+    border: 10px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    height: 270px;
+    text-align: center;
+    left: 3px;
+    position: absolute;
+    top: 300px;
+    width: 270px;
+}
+
+.block-item a {
+    max-height: 368px;
+    display: inline-block;
+}
+
+.top {
+    margin: 160px;
 }
 
 .name {
@@ -140,12 +264,43 @@ header {
 #nav li {
     font-size: 14px;
     padding: 0;
+
+    border-top: 10px solid #27274d;
+    border-right: 10px solid #27274d;
+    border-bottom: 10px solid #27274d;
+    border-left: 10px solid #27274d;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+
 }
+
+/*ACTIVE*/
+
+#nav #home {
+    border-bottom: 15px solid #B84A30;
+    /*border-left: #B84A30;*/
+}
+
+
+
+#nav #resume {
+    /*border-top-left-radius: 30px;*/
+}
+
+
+#nav #home:after {
+    border-left: 10px solid #27274d;
+    border-bottom: 10px solid #27274d;
+    border-bottom-left-radius: 30px;
+}
+
 
 .menu-item {
     height: 120px;
     text-align: center;
     padding: 0;
+
+    /*box-sizing: content-box;*/
 }
 
 .menu-item a {
@@ -203,7 +358,8 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: #e84610;
+    /*color: #e84610;*/
+    color: #FF4D23;
 }
 
 .social-links {
@@ -226,27 +382,72 @@ footer {
 }
 
 .social-links li a i:hover {
-    background-color: #e84610;
+    background-color: #FF4D23;
 }
 
 #footer-details {
     padding: 20px;
 }
 
-/* -------------------------------------------------------------------Three reaasons */
+/* -------------------------------------------------------------------Three reasons */
+
+.section-heading-about-me {
+    color: #fff;
+}
 
 .three-reasons-icon {
     font-size: 26px;
-    color: #B84A30;
+    color: #fff;
 }
 
 .three-reasons-heading {
-    font-family: "Major Mono Display", monospace;
-    font-weight: bolder;
+    color: #fff;
+    font-family: "Major Mono Display", sans-serif;
+    font-weight: normal;
     margin-bottom: 15px;
 }
 
-.mono-med {
-    font-family: "Roboto Mono", monospace;
-    font-weight: lighter;
+.three-reasons-p {
+    color: #fff
 }
+
+.mono-med {
+    font-family: "DM Mono", monospace;
+    font-weight: normal;
+}
+
+/* -------------------------------------------------------------------Personal info */
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
+
