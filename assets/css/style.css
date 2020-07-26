@@ -26,6 +26,15 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-skills {
+    background-color: #15AABF;
+    background-color: #1D98B8;
+}
+
+.bg-color-contact {
+    background-color: #B8A90B;
+}
+
 .ui-menu-color-home {
     background-color: #B84A30;
     /*background-color: #fd4d3f;*/
@@ -37,6 +46,8 @@
     background-color: #382072;
     /*background-color: #47cca0;*/
     background-color: #14B87F;
+    background-color: #15AABF;
+    background-color: #1D98B8;
 
 }
 
@@ -276,8 +287,8 @@ header {
 
 /*ACTIVE*/
 
-#nav #home {
-    border-bottom: 15px solid #B84A30;
+#active {
+    border-bottom: 10px solid #B84A30;
     /*border-left: #B84A30;*/
 }
 
@@ -340,7 +351,7 @@ header {
 /* -------------------------------------------------------------------Footer */
 
 footer {
-    background-color: #221D2E;
+    background-color: #27274d;
     color: #fafafa;
     min-height: 120px;
     margin:0;
@@ -451,3 +462,24 @@ footer {
     width: 60%;
 }
 
+/* -------------------------------------------------------------------Skills */
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+    line-height: 25px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
