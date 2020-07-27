@@ -26,6 +26,10 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-work-history {
+    background-color: #f4f4f4;
+}
+
 .bg-color-skills {
     background-color: #15AABF;
     background-color: #1D98B8;
@@ -84,6 +88,7 @@ h4 {
 
 .general-sub {
     font-family: "Major Mono Display", monospace;
+    font-size: 14px;
     font-weight: 300;
     color: #fafafa;
 }
@@ -92,7 +97,7 @@ h4 {
     display: inline-block;
     font-family: "Roboto",sans-serif;
     font-weight: 100;
-    font-size: inherit;
+    font-size: 14px;
 }
 
 .row-table {
@@ -105,6 +110,7 @@ h4 {
     float: left;
 }
 
+.history-heading,
 .section-heading {
     font-family: "Major Mono Display", monospace;
     font-weight: 300;
@@ -482,4 +488,59 @@ footer {
 
 .progress-section {
     margin: 40px 20px;
+}
+
+/* -------------------------------------------------------------------Work History */
+
+.history-heading {
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #1D98B8;
+    border-left: 1px solid;
+}
+
+.timeline-item h4 {
+    font-family: "Major Mono Display", sans-serif;
+    font-weight: bold;
+}
+
+.timeline-item p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position:absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Major Mono Display", monospace;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #1D98B8;
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
