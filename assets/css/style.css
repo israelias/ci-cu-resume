@@ -33,6 +33,10 @@
 .bg-color-skills {
     background-color: #15AABF;
     background-color: #1D98B8;
+    background-color: #1D49B8;
+    background-color: #4B27B8;
+    background-color: #3D14B8;
+    background-color: #1D49B8;
 }
 
 .bg-color-contact {
@@ -52,6 +56,9 @@
     background-color: #14B87F;
     background-color: #15AABF;
     background-color: #1D98B8;
+    background-color: #4B27B8;
+    background-color: #3D14B8;
+    background-color: #1D49B8;
 
 }
 
@@ -500,12 +507,18 @@ footer {
     padding: 4em 2em 0em 2em;
     position: relative;
     color: #1D98B8;
+    color: #1633ff;
+    color: #180A3E;
+    color: #156E85;
+    color: #4B27B8;
+    color: #1D49B8;
     border-left: 1px solid;
 }
 
 .timeline-item h4 {
     font-family: "Major Mono Display", sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 21px;
 }
 
 .timeline-item p {
@@ -539,6 +552,11 @@ footer {
     border-radius: 12px;
     content: '';
     background: #1D98B8;
+    background: #1633ff;
+    background: #180A3E;
+    background: #156E85;
+    background: #4B27B8;
+    background: #1D49B8;
 }
 
 .history-items {
