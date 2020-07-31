@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="assets/css/test.css" type="text/css">
     <title>Rosie</title>
 </head>
-<body>
+<body data-spy="scroll" data-target="#nav" data-offset="0" style="position: relative;">
 <!--TOP SPLASH-->
-<div class="header top-splash">
+<div class="header container-fluid top-splash">
     <div class="row no-gutters">
         <div class="col-md-4 bg-color-profile container-border">
             <!--        PROFILE PIC-->
@@ -47,14 +47,14 @@
     <!--    /TOP SPLASH-->
 </div>
 <!--MENU STICKY-->
-<div class="menu-sticky">
-    <div class="row no-gutters">
+<div class="menu-sticky container-fluid">
+    <div class="row no-gutters justify-content-between">
         <div class="col-md-4 bg-color-profile alert-container">
             <!--            TWO-->
             <div class="row no-gutters">
                 <div class="col">
                     <ul id="nav-left" class="nav list-inline menu-container row row-cols-1 row-cols-sm-2">
-                        <li class="nav-item home hey current col">
+                        <li class="nav-item list-inline-item hey current col">
                             <div id="hey" class="menu-item hey current">
                                 <a class="hey cur" href="#"><span>Hey!</span></a>
                             </div>
@@ -73,25 +73,25 @@
             <!--            FOUR-->
             <div class="row no-gutters">
                 <div class="col menu-height">
-                    <ul id="nav" class="nav menu-container row row-cols-2 row-cols-sm-4">
-                        <li class="nav-item home current col">
+                    <ul id="nav" class="nav list-inline menu-container row row-cols-2 row-cols-sm-4">
+                        <li class="nav-item list-inline-item home current col">
                             <div id="home" class="menu-item home current">
-                                <a class="hom cur" href="#"><span>Home</span></a>
+                                <a class="hom cur nav-link" href="#tab-one"><span>Home</span></a>
                             </div>
                         </li>
-                        <li class="nav-item resume current col">
+                        <li class="nav-item list-inline-item resume current col">
                             <div id="resume" class="menu-item resume current">
-                                <a class="res cur" href="#"><span>Resume</span></a>
+                                <a class="res cur nav-link" href="#tab-two"><span>Resume</span></a>
                             </div>
                         </li>
-                        <li class="nav-item collab current col">
+                        <li class="nav-item list-inline-item collab current col">
                             <div id="collab" class="menu-item collab current">
-                                <a class="coll cur" href="#"><span>Contact</span></a>
+                                <a class="coll cur nav-link" href="#tab-three"><span>Contact</span></a>
                             </div>
                         </li>
-                        <li class="nav-item download current col">
+                        <li class="nav-item list-inline-item download current col">
                             <div id="download" class="menu-item download current">
-                                <a class="dow cur" href="#"><span>Download</span></a>
+                                <a class="dow cur nav-link" href="#tab-four"><span>Download</span></a>
                             </div>
                         </li>
                     </ul>
@@ -129,14 +129,12 @@
             <div class="personal-info-item">
                 <div class="key">
                     <p class="uppercase">
-                        Address:
+                        Location:
                     </p>
                 </div>
                 <div class="value">
                     <p>
-                        11 Melon Street, Valle Verde 1
-                        Brgy. Ugong, Pasig 1604
-                        Metro Manila, Philippines
+                        Manila, Philippines
                     </p>
                 </div>
             </div>
@@ -164,11 +162,61 @@
                     </p>
                 </div>
             </div>
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-dev" aria-hidden="true"></i>
+                        <span class="sr-only">Dev</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-vimeo-v" aria-hidden="true"></i>
+                        <span class="sr-only">Vimeo</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-pinterest-p" aria-hidden="true"></i>
+                        <span class="sr-only">Pinterest</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        <span class="sr-only">LinkedIn</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-behance" aria-hidden="true"></i>
+                        <span class="sr-only">LinkedIn</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span class="sr-only">GitHub</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fas fa-globe" aria-hidden="true"></i>
+                        <span class="sr-only">Portfolio</span>
+                    </a>
+                </li>
+            </ul>
         </div>
         <div class="col-md-8 bg-color-three-reasons section-column home-column">
             <div class="row">
                 <div class="col">
-                    <h3 class="section-heading section-heading-about-me uppercase-special">About Me</h3>
+                    <h3 id="tab-one" class="section-heading section-heading-about-me uppercase-special">About Me</h3>
                 </div>
             </div>
             <div class="row">
@@ -178,10 +226,9 @@
                             <i class="three-reasons-icon fa fa-question" aria-hidden="true"></i>
                         </div>
                         <div class="col-10">
-                            <h4 class="three-reasons-heading">What do i do•?</h4>
+                            <h4 class="three-reasons-heading">Who i am</h4>
                             <p class="three-reasons-p">
-                                I am a skilled Full Stack Developer with a wealth of diverse
-                                life and technical experience that I bring to every project.
+                                I am a transnational subject (an expat baby) — raised in seven cities across the Pacific by the age of seventeen. As a result, I am always grounded at the intersections between the local and the global. As a creative, I appreciate the opportunities and constraints of trade expertises and material techniques unique to the intertwined locales of Site. As a professional, I capitalize on the collective knowledge of global networks while remaining embedded to a conscientious approach to design, representation, entrepreneurialism and leadership.
                             </p>
                         </div>
                     </div>
@@ -192,11 +239,10 @@
                             <i class="three-reasons-icon fa fa-thumbs-up" aria-hidden="true"></i>
                         </div>
                         <div class="col-10">
-                            <h4 class="three-reasons-heading">•How do i do it•?</h4>
+                            <h4 class="three-reasons-heading">What i do</h4>
                             <p class="three-reasons-p">
-                                I follow form as well as function. I know that the aesthetics of effective
-                                design combined with application speed, security and reliability combine to
-                                create a great user experience.
+                                I am a design architect (buildings) with 7 years of professional experience. I worked with a large firms in Los Angeles, New York, Basel and Singapore after receiving my Master of Architecture from Columbia University.
+                                I am also a design technologist (computers) and presently in pursuit of a Diploma in Software Development at Code Institute.
                             </p>
                         </div>
                     </div>
@@ -207,11 +253,25 @@
                             <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
                         </div>
                         <div class="col-10">
-                            <h4 class="three-reasons-heading">Why hire me•?</h4>
+                            <h4 class="three-reasons-heading">Why i do it</h4>
                             <p class="three-reasons-p">
-                                I work quickly and effectively in getting things built and working across the stack.
-                                I'm an excellent communicator who thrives in bright and enthusiastic teams and I'm
-                                also a self starter when working solo.
+                                I am eager to be on the backend of the design delivery. I believe the most essential skill — for the building industry or otherwise — is to be able to think and produce algorithmically. I fundamentally enjoy programming and find the practice of writing code extremely rewarding.
+                                I want to be fully capable of contributing to open source. I want to develop programs that are useful, educational and aesthetically pleasing in its finished deployment as well as its procedural delivery.
+                                I want to continue to be adaptable to new languages in order to grow, operate and contribute across platforms effectively and consistently.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="three-reasons-heading">Misc.</h4>
+                            <p class="three-reasons-p">
+                                My research interests are on responsive design, the computational design of home automation, space optimization, virtual reality visualization and performance control.
+                                In my spare time, I enjoy reviewing films, reading memoirs, designing books and playing the piano.
                             </p>
                         </div>
                     </div>
@@ -223,13 +283,13 @@
 </section>
 
 <!--MENU STICKY BLUE-->
-<div class="menu-sticky menu-back">
-    <div class="row no-gutters">
+<div class="menu-sticky container-fluid menu-back">
+    <div class="row no-gutters justify-content-between">
         <div class="col-md-4 bg-color-profile alert-container blank-container">
             <!--            TWO-->
             <div class="row no-gutters">
                 <div class="col">
-                    <ul id="alert" class="list-inline menu-container invisible">
+                    <ul id="nav-left" class=" nav list-inline menu-container row row-cols-1 row-cols-sm-2 invisible">
                         <li id="contact" class="col-12 col-sm-12 ui-menu-color-background list-inline-item alert-button-item">
                             <button type="button" class="btn btn-outline btn--cta btn--red">
                                 <a href="#" >Get in touch</a>
@@ -244,23 +304,23 @@
             <!--            FOUR-->
             <div class="row no-gutters">
                 <div class="col menu-height">
-                    <ul id="nav" class="nav menu-container row row-cols-2 row-cols-sm-4">
-                        <li class="nav-item home current col">
-                            <div id="home" class="menu-item home current invisible">
-                                <a class="hom cur" href="#"><span>Home</span></a>
+                    <ul id="nav" class="nav list-inline menu-container row row-cols-2 row-cols-sm-4 menu-transparent">
+                        <li class="nav-item list-inline-item home current col">
+                            <div id="home" class="menu-item home current pseudo">
+                                <a class="hom cur invisible" href="#"><span>Home</span></a>
                             </div>
                         </li>
-                        <li class="nav-item resume current col">
-                            <div id="resume" class="menu-item resume current">
-                                <a class="res cur" href="#"><span>Resume</span></a>
+                        <li class="nav-item list-inline-item resume current col">
+                            <div id="resume" class="menu-item resume current pseudo">
+                                <a class="res cur pseudo-1" href="#"><span>Resume</span></a>
                             </div>
                         </li>
-                        <li class="nav-item collab current col invisible">
+                        <li class="nav-item list-inline-item collab current col invisible">
                             <div id="collab" class="menu-item collab current">
                                 <a class="coll cur" href="#"><span>Contact</span></a>
                             </div>
                         </li>
-                        <li class="nav-item download current col invisible">
+                        <li class="nav-item list-inline-item download current col invisible">
                             <div id="download" class="menu-item download current">
                                 <a class="dow cur" href="#"><span>Download</span></a>
                             </div>
@@ -306,7 +366,7 @@
         <div class="col-md-8 bg-color-skills section-column resume-column">
             <div class="row">
                 <div class="col">
-                    <h3 class="section-heading section-heading-about-me uppercase-special">My Skills</h3>
+                    <h3 id="tab-two" class="section-heading section-heading-about-me uppercase-special">My Skills</h3>
                 </div>
             </div>
             <div class="row">
@@ -481,7 +541,7 @@
         <div class="col-md-8 bg-color-contact section-column collab-column">
             <div class="row">
                 <div class="col">
-                    <h3 class="section-heading section-heading-about-me uppercase-special">Work Samples</h3>
+                    <h3 id="tab-three" class="section-heading section-heading-about-me uppercase-special">Work Samples</h3>
                 </div>
             </div>
             <div class="row">
@@ -642,7 +702,7 @@
         <div class="col-md-8 bg-color-download section-column download-column">
             <div class="row">
                 <div class="col">
-                    <h3 class="section-heading section-heading-about-me uppercase-special">About Me</h3>
+                    <h3 id="tab-four" class="section-heading section-heading-about-me uppercase-special">About Me</h3>
                 </div>
             </div>
             <div class="row">
