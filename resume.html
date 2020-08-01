@@ -10,71 +10,137 @@
     <!--    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/test.css" type="text/css">
     <title>Rosie</title>
 </head>
-<body>
-<header>
-    <div class="row no-gutters">
-        <div class="col-md-4 bg-color-profile container-border">
+<body data-spy="scroll" data-target="#nav" data-offset="0" style="position: relative;">
 
-            <!--                <div class="row no-gutters bg-color-profile">-->
-            <!--                    <div class="col profile-heading bg-248">-->
-
-            <!--                    </div>-->
-            <!--                </div>-->
-
-
-
-            <div class="row no-gutters">
-                <div class="col profile-heading">
-                    <ul id="main-nav" class="list-inline img-container">
-                        <li class="col-12 bg-color-profile list-inline-item block-item">
-                            <a href="#"></i><span>Hello!</span></a>
-                        </li>
-                        <li class="col-12 list-inline-item img-item">
-                            <a href="index.html" class="ui-menu-color-profile">
-                                <!--                                    <img src="assets/images/joem_color4_lg_white1.jpg" alt="Profile picture">-->
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
+<header class="header container-fluid second-splash">
+    <div id="header-details" class="row">
+        <div class="col-sm-4">
+            <h5 class="uppercase-special general-sub">About</h5>
+            <p class="inline-block">
+                Full Stack Developer. Skilled in everything from HTML to Heroku.
+                The capacity for structural and design thinking.
+            </p>
         </div>
-        <div class="col-md-8 top-container">
-            <div class="row no-gutters bg-color-name-title">
-                <div class="col heading">
-                    <h1 class="name">Joem Elias Sanez</h1>
-                    <h2 class="title">Full Stack Developer</h2>
-                </div>
-            </div>
-            <div class="row no-gutters">
-                <div class="col">
-                    <ul id="nav" class="list-inline menu-container">
-                        <li id="home" class="col-6 col-sm-3 ui-menu-color-home list-inline-item menu-item">
-                            <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                        </li>
-                        <li id="resume" style="border-bottom: 10px solid #4B27B8;" class="col-6 col-sm-3 ui-menu-color-resume list-inline-item menu-item">
-                            <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
-                        </li>
-                        <li id="contact" class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menu-item">
-                            <a href="#" class="hvr-sweep-to-bottom"><i class="far fa-comment" aria-hidden="true"></i><span>Contact</span></a>
-                        </li>
-                        <li id="download" class="col-6 col-sm-3 ui-menu-color-download list-inline-item menu-item">
-                            <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
+        <div class="col-sm-4">
+            <h5 class="uppercase-special general-sub">Download</h5>
+            <p class="inline-block">
+                Need a printable version of my CV? Download it here.
+                <a href="#" target="_blank" class="cv-pdf">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    <span class="sr-only">Download link.</span>
+                </a>
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h5 class="uppercase-special general-sub">Social</h5>
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-dev" aria-hidden="true"></i>
+                        <span class="sr-only">Dev</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-vimeo-v" aria-hidden="true"></i>
+                        <span class="sr-only">Vimeo</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-pinterest-p" aria-hidden="true"></i>
+                        <span class="sr-only">Pinterest</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        <span class="sr-only">LinkedIn</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span class="sr-only">GitHub</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fas fa-globe" aria-hidden="true"></i>
+                        <span class="sr-only">Portfolio</span>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
+
 </header>
+
+<!--MENU STICKY BLUE-->
+<div class="menu-sticky container-fluid menu-back">
+    <div class="row no-gutters justify-content-between">
+        <div class="col-md-4 bg-color-profile alert-container blank-container">
+            <!--            TWO-->
+            <div class="row no-gutters">
+                <div class="col">
+                    <ul id="nav-left" class=" nav list-inline menu-container row row-cols-1 row-cols-sm-2">
+                        <li id="contact" class="col-12 col-sm-12 ui-menu-color-background list-inline-item alert-button-item">
+                            <button type="button" class="btn btn-outline btn--cta btn--red">
+                                <a href="#" >Get in touch</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--            /TWO-->
+        </div>
+        <div class="col-md-8 menu-right-container">
+            <!--            FOUR-->
+            <div class="row no-gutters">
+                <div class="col menu-height">
+                    <ul id="nav" class="nav list-inline menu-container row row-cols-2 row-cols-sm-4 menu-transparent">
+                        <li class="nav-item list-inline-item home current col">
+                            <div id="home" class="menu-item home current pseudo">
+                                <a class="hom cur invisible" href="#"><span>About</span></a>
+                            </div>
+                        </li>
+                        <li class="nav-item list-inline-item resume current col">
+                            <div id="resume" class="menu-item resume current pseudo">
+                                <a class="res cur pseudo-1" href="resume.html"><span>Resume</span></a>
+                            </div>
+                        </li>
+                        <li class="nav-item list-inline-item collab current col">
+                            <div id="collab" class="menu-item collab current">
+                                <a class="coll cur" href="contact.html"><span>Samples</span></a>
+                            </div>
+                        </li>
+                        <li class="nav-item list-inline-item download current col">
+                            <div id="download" class="menu-item download current">
+                                <a class="dow cur" href="download.html"><span>Connect</span></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--        /FOUR-->
+        </div>
+    </div>
+    <!--    /MENU STICKY BLUE-->
+</div>
+
+<!--RESUME SECTION-->
 <section class="container-fluid">
     <div class="row">
-        <div class="col-md-4 bg-color-work-history section-column container-border">
+        <div class="col-md-4 bg-color-work-history left-section-column container-border">
             <div class="row">
                 <div class="col-12">
                     <h3 class="history-heading uppercase-special">
@@ -101,10 +167,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-8 bg-color-skills section-column container-border">
+        <div class="col-md-8 bg-color-skills section-column resume-column">
             <div class="row">
                 <div class="col">
-                    <h3 class="section-heading section-heading-about-me uppercase-special">My Skills</h3>
+                    <h3 id="tab-two" class="section-heading section-heading-about-me uppercase-special">My Skills</h3>
                 </div>
             </div>
             <div class="row">
@@ -169,7 +235,7 @@
             </div>
         </div>
     </div>
-
+    <!--/RESUME SECTION-->
 </section>
 <footer class="container-fluid">
     <div id="footer-details" class="row">
