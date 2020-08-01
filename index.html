@@ -5,257 +5,412 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">-->
+    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<!--    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">-->
+    <!--    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/test.css" type="text/css">
     <title>Rosie</title>
 </head>
-<body>
-    <header>
-        <div class="row no-gutters">
-            <div class="col-md-4 bg-color-profile container-border">
-
-<!--                <div class="row no-gutters bg-color-profile">-->
-<!--                    <div class="col profile-heading bg-248">-->
-
-<!--                    </div>-->
-<!--                </div>-->
-
-
-
-                <div class="row no-gutters">
-                    <div class="col profile-heading">
-                        <ul id="main-nav" class="list-inline img-container">
-                            <li class="col-12 bg-color-profile list-inline-item block-item">
-                                <a href="#"></i><span>Hello!</span></a>
-                            </li>
-                            <li class="col-12 list-inline-item img-item">
-                                <a href="index.html" class="ui-menu-color-profile">
-<!--                                    <img src="assets/images/joem_color4_lg_white1.jpg" alt="Profile picture">-->
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+<body data-spy="scroll" data-target="#nav" data-offset="0" style="position: relative;">
+<!--TOP SPLASH-->
+<div class="header container-fluid top-splash">
+    <div class="row no-gutters">
+        <div class="col-md-4 bg-color-profile container-border">
+            <!--        PROFILE PIC-->
+            <div class="row no-gutters">
+                <div class="col profile-heading">
+                    <ul id="main-nav" class="list-inline img-container">
+                        <li class="col-12 bg-color-profile list-inline-item block-item">
+                            <a href="#"></i><span>Hello!</span></a>
+                        </li>
+                        <li class="col-12 list-inline-item img-item">
+                            <a href="index.html" class="ui-menu-color-profile"></a>
+                        </li>
+                    </ul>
                 </div>
-
-
             </div>
-            <div class="col-md-8 top-container">
-                <div class="row no-gutters bg-color-name-title">
-                    <div class="col heading">
-                        <h1 class="name">Joem Elias Sanez</h1>
-                        <h2 class="title">Full Stack Developer</h2>
-                    </div>
+            <!--        /PROFILE PIC-->
+        </div>
+        <div class="col-md-8">
+            <!--            NAME TITLE-->
+            <div class="row no-gutters bg-color-name-title">
+                <div class="col heading">
+                    <h1 class="name">Joem Elias Sanez</h1>
+                    <h2 class="title">Full Stack Developer</h2>
                 </div>
-                <div class="row no-gutters">
-                    <div class="col">
-                        <ul id="nav" class="list-inline menu-container">
-                            <li id="home" style="border-bottom: 10px solid #B84A30;" class="col-6 col-sm-3 ui-menu-color-home list-inline-item menu-item">
-                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                            </li>
-                            <li id="resume" class="col-6 col-sm-3 ui-menu-color-resume list-inline-item menu-item">
-                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
-                            </li>
-                            <li id="contact" class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menu-item">
-                                <a href="#" class="hvr-sweep-to-bottom"><i class="far fa-comment" aria-hidden="true"></i><span>Contact</span></a>
-                            </li>
-                            <li id="download" class="col-6 col-sm-3 ui-menu-color-download list-inline-item menu-item">
-                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
+                <!--                /NAME TITLE-->
             </div>
         </div>
-    </header>
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 bg-color-personal-info section-column container-border">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="section-heading uppercase-special">
-                            Personal Info
-                        </h3>
-                    </div>
+    </div>
+    <!--    /TOP SPLASH-->
+</div>
+<!--MENU STICKY-->
+<div class="menu-sticky container-fluid">
+    <div class="row no-gutters justify-content-between">
+        <div class="col-md-4 bg-color-profile alert-container">
+            <!--            TWO-->
+            <div class="row no-gutters">
+                <div class="col">
+                    <ul id="nav-left" class="nav list-inline menu-container row row-cols-1 row-cols-sm-2">
+                        <li class="nav-item list-inline-item hey current col">
+                            <div id="hey" class="menu-item hey current">
+                                <a class="hey cur" href="#"><span>Hey!</span></a>
+                            </div>
+                        </li>
+                        <li id="contact" class="col-12 col-sm-12 ui-menu-color-background list-inline-item alert-button-item">
+                            <button type="button" class="btn btn-outline btn--cta btn--red">
+                                <a href="#" >Get in touch</a>
+                            </button>
+                        </li>
+                    </ul>
                 </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Name:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                            Joem Elias Sanez
-                        </p>
-                    </div>
+            </div>
+            <!--            /TWO-->
+        </div>
+        <div class="col-md-8 menu-right-container">
+            <!--            FOUR-->
+            <div class="row no-gutters">
+                <div class="col menu-height">
+                    <ul id="nav" class="nav list-inline menu-container row row-cols-2 row-cols-sm-4">
+                        <li class="nav-item list-inline-item home current col">
+                            <div id="home" class="menu-item home current">
+                                <a class="hom cur nav-link" href="#tab-one"><span>Home</span></a>
+                            </div>
+                        </li>
+                        <li class="nav-item list-inline-item resume current col">
+                            <div id="resume" class="menu-item resume current">
+                                <a class="res cur nav-link" href="#tab-two"><span>Resume</span></a>
+                            </div>
+                        </li>
+                        <li class="nav-item list-inline-item collab current col">
+                            <div id="collab" class="menu-item collab current">
+                                <a class="coll cur nav-link" href="#tab-three"><span>Contact</span></a>
+                            </div>
+                        </li>
+                        <li class="nav-item list-inline-item download current col">
+                            <div id="download" class="menu-item download current">
+                                <a class="dow cur nav-link" href="#tab-four"><span>Download</span></a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Address:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                            11 Melon Street, Valle Verde 1
-                            Brgy. Ugong, Pasig 1604
-                            Metro Manila, Philippines
-                        </p>
-                    </div>
+            </div>
+            <!--        /FOUR-->
+        </div>
+    </div>
+    <!--    /MENU STICKY-->
+</div>
+
+<!--ABOUT ME SECTION-->
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-md-4 bg-color-personal-info left-section-column container-border">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="section-heading uppercase-special">
+                        Personal Info
+                    </h3>
                 </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Phone:
-                        </p>
+            </div>
+            <div class="row no-gutters">
+                <div class="col">
+                    <div class="personal-info-item">
+                        <div class="key">
+                            <p class="uppercase">
+                                Name:
+                            </p>
+                        </div>
+                        <div class="value">
+                            <p>
+                                Joem Elias Sanez
+                            </p>
+                        </div>
                     </div>
-                    <div class="value">
-                        <p>
-                            555 204 1973
-                        </p>
+                    <div class="personal-info-item">
+                        <div class="key">
+                            <p class="uppercase">
+                                Location:
+                            </p>
+                        </div>
+                        <div class="value">
+                            <p>
+                                Manila, Philippines
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Email:
-                        </p>
+                    <div class="personal-info-item">
+                        <div class="key">
+                            <p class="uppercase">
+                                Phone:
+                            </p>
+                        </div>
+                        <div class="value">
+                            <p>
+                                555 204 1973
+                            </p>
+                        </div>
                     </div>
-                    <div class="value">
-                        <p>
-                            eliasxv@gmail.com
-                        </p>
+                    <div class="personal-info-item">
+                        <div class="key">
+                            <p class="uppercase">
+                                Email:
+                            </p>
+                        </div>
+                        <div class="value">
+                            <p>
+                                eliasxv@gmail.com
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 bg-color-three-reasons section-column container-border">
-                <div class="row">
-                    <div class="col">
-                        <h3 class="section-heading section-heading-about-me uppercase-special">About Me</h3>
+            <div class="row no-gutters align-bottom">
+                <div class="col align-bottom">
+                    <ul class="row justify-content-between list-inline social-links">
+                        <li class="list-inline-item col p-0">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-instagram hvr-pop" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item col p-0">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-dev hvr-pop" aria-hidden="true"></i>
+                                <span class="sr-only">Dev</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item col p-0">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-vimeo-v hvr-pop" aria-hidden="true"></i>
+                                <span class="sr-only">Vimeo</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item col p-0">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-pinterest-p hvr-pop" aria-hidden="true"></i>
+                                <span class="sr-only">Pinterest</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item col p-0">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-linkedin-in hvr-pop" aria-hidden="true"></i>
+                                <span class="sr-only">LinkedIn</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item col p-0">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-behance hvr-pop" aria-hidden="true"></i>
+                                <span class="sr-only">LinkedIn</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item col p-0">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-github hvr-pop" aria-hidden="true"></i>
+                                <span class="sr-only">GitHub</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item col p-0">
+                            <a href="#" target="_blank">
+                                <i class="fas fa-globe hvr-pop" aria-hidden="true"></i>
+                                <span class="sr-only">Portfolio</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--            DOWNLOAD ELEMENT-->
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="section-heading uppercase-special">
+                        Download my cv.
+                    </h4>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col alert-button-item">
+                    <button type="button" class="btn btn-outline btn-block btn-light btn--light justify-content-start">
+                        <span class="button-text">
+                            <i class="fa fa-file-pdf" aria-hidden="true"></i> SANEZ_CV_2020.pdf
+                        </span>
+                        <span id="button-link" class="button-link">
+                            <a href="#"><i class="far fa-eye" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-download" aria-hidden="true"></i></a>
+                        </span>
+                    </button>
+                </div>
+
+            </div>
+            <!--            MESSAGE FORM-->
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="section-heading uppercase-special">
+                        Drop me a line!
+                    </h4>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col">
+                    <!--                    <div id="contact_message" class="success-msg"> <i class="fa fa-paper-plane-o"></i>Thank You. Your Message has been Submitted</div>-->
+                    <form id="message-form" class="message-form-group" method="post" action="#" onsubmit="return false">
+                        <div class="form-group">
+                            <label for="email"></label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject"></label>
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message"></label>
+                            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group-button">
+                            <button type="submit" value="submit" id="btn-submit" class="btn btn-outline round btn-block btn-light" onclick="proceed();">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-8 bg-color-three-reasons section-column home-column">
+            <div class="row">
+                <div class="col">
+                    <h3 id="tab-one" class="section-heading section-heading-about-me uppercase-special">About</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 offset-1 offset-sm-0">
+                    <div class="row">
+                        <div class="col-1">
+                            <i class="three-reasons-icon fa fa-question" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-11 col-md-11 col-sm-12">
+                            <h4 class="three-reasons-heading">Who i am</h4>
+                            <p class="three-reasons-p">
+                                I am a transnational subject (an expat baby) — raised in seven cities across the Pacific by the age of seventeen. As a result, I am always grounded at the intersections between the local and the global. As a creative, I appreciate the opportunities and constraints of trade expertises and material techniques unique to the intertwined locales of Site. As a professional, I capitalize on the collective knowledge of global networks while remaining embedded to a conscientious approach to design, representation, entrepreneurialism and leadership.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-question" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading">What do i do•?</h4>
-                                <p class="three-reasons-p">
-                                    I am a skilled Full Stack Developer with a wealth of diverse
-                                    life and technical experience that I bring to every project.
-                                </p>
-                            </div>
+                <div class="col-12 offset-1 offset-sm-0">
+                    <div class="row">
+                        <div class="col-1">
+                            <i class="three-reasons-icon fa fa-thumbs-up" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-11 col-md-11 col-sm-12">
+                            <h4 class="three-reasons-heading">What i do</h4>
+                            <p class="three-reasons-p">
+                                I am a design architect (buildings) with 7 years of professional experience. I worked with a large firms in Los Angeles, New York, Basel and Singapore after receiving my Master of Architecture from Columbia University.
+                                I am also a design technologist (computers) and presently in pursuit of a Diploma in Software Development at Code Institute.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-thumbs-up" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading">•How do i do it•?</h4>
-                                <p class="three-reasons-p">
-                                    I follow form as well as function. I know that the aesthetics of effective
-                                    design combined with application speed, security and reliability combine to
-                                    create a great user experience.
-                                </p>
-                            </div>
+                </div>
+                <div class="col-12 offset-1 offset-sm-0">
+                    <div class="row">
+                        <div class="col-1">
+                            <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-11">
+                            <h4 class="three-reasons-heading">Why i do it</h4>
+                            <p class="three-reasons-p">
+                                I am eager to be on the backend of the design delivery. I believe the most essential skill — for the building industry or otherwise — is to be able to think and produce algorithmically. I fundamentally enjoy programming and find the practice of writing code extremely rewarding.
+                                I want to be fully capable of contributing to open source. I want to develop programs that are useful, educational and aesthetically pleasing in its finished deployment as well as its procedural delivery.
+                                I want to continue to be adaptable to new languages in order to grow, operate and contribute across platforms effectively and consistently.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading">Why hire me•?</h4>
-                                <p class="three-reasons-p">
-                                    I work quickly and effectively in getting things built and working across the stack.
-                                    I'm an excellent communicator who thrives in bright and enthusiastic teams and I'm
-                                    also a self starter when working solo.
-                                </p>
-                            </div>
+                </div>
+                <div class="col-12 offset-1 offset-sm-0">
+                    <div class="row">
+                        <div class="col-1">
+                            <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-11">
+                            <h4 class="three-reasons-heading">Misc.</h4>
+                            <p class="three-reasons-p">
+                                My research interests are on responsive design, the computational design of home automation, space optimization, virtual reality visualization and performance control.
+                                In my spare time, I enjoy reviewing films, reading memoirs, designing books and playing the piano.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <!--    /ABOUT ME SECTION-->
+</section>
 
-    </section>
-    <footer class="container-fluid">
-        <div id="footer-details" class="row">
-            <div class="col-sm-4">
-                <h5 class="uppercase-special general-sub">About</h5>
-                <p class="inline-block">
-                    Full Stack Developer. Skilled in everything from HTML to Heroku.
-                    The capacity for structural and design thinking.
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase-special general-sub">Download</h5>
-                <p class="inline-block">
-                    Need a printable version of my CV? Download it here.
-                    <a href="#" target="_blank" class="cv-pdf">
-                        <i class="fa fa-download" aria-hidden="true"></i>
-                        <span class="sr-only">Download link.</span>
+<
+<footer class="container-fluid">
+    <div id="footer-details" class="row">
+        <div class="col-sm-4">
+            <h5 class="uppercase-special general-sub">About</h5>
+            <p class="inline-block">
+                Full Stack Developer. Skilled in everything from HTML to Heroku.
+                The capacity for structural and design thinking.
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h5 class="uppercase-special general-sub">Download</h5>
+            <p class="inline-block">
+                Need a printable version of my CV? Download it here.
+                <a href="#" target="_blank" class="cv-pdf">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    <span class="sr-only">Download link.</span>
+                </a>
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h5 class="uppercase-special general-sub">Social</h5>
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
                     </a>
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase-special general-sub">Social</h5>
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank">
-                            <i class="fab fa-dev" aria-hidden="true"></i>
-                            <span class="sr-only">Dev</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank">
-                            <i class="fab fa-vimeo-v" aria-hidden="true"></i>
-                            <span class="sr-only">Vimeo</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank">
-                            <i class="fab fa-pinterest-p" aria-hidden="true"></i>
-                            <span class="sr-only">Pinterest</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank">
-                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank">
-                            <i class="fab fa-github" aria-hidden="true"></i>
-                            <span class="sr-only">GitHub</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank">
-                            <i class="fas fa-globe" aria-hidden="true"></i>
-                            <span class="sr-only">Portfolio</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-dev" aria-hidden="true"></i>
+                        <span class="sr-only">Dev</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-vimeo-v" aria-hidden="true"></i>
+                        <span class="sr-only">Vimeo</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-pinterest-p" aria-hidden="true"></i>
+                        <span class="sr-only">Pinterest</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        <span class="sr-only">LinkedIn</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span class="sr-only">GitHub</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" target="_blank">
+                        <i class="fas fa-globe" aria-hidden="true"></i>
+                        <span class="sr-only">Portfolio</span>
+                    </a>
+                </li>
+            </ul>
         </div>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>
