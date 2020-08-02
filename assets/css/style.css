@@ -994,6 +994,7 @@ button span .button-link {
 
 /* -------------------------------------------------------------------Skills */
 
+
 .progress {
     position: relative;
     height: 1px;
@@ -1031,6 +1032,10 @@ button span .button-link {
 
 .lp-8 {
     padding-left: 8px;
+}
+
+.rp-8 {
+    padding-right: 8px;
 }
 
 /* -------------------------------------------------------------------Work History */
