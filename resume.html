@@ -10,7 +10,7 @@
     <!--    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-    <link rel="stylesheet" href="assets/css/test.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Rosie</title>
 </head>
 <body data-spy="scroll" data-target="#nav" data-offset="0" style="position: relative;">
@@ -18,11 +18,19 @@
 <header class="header container-fluid second-splash">
     <div id="header-details" class="row">
         <div class="col-sm-4">
-            <h5 class="uppercase-special general-sub">About</h5>
-            <p class="inline-block">
-                Full Stack Developer. Skilled in everything from HTML to Heroku.
-                The capacity for structural and design thinking.
-            </p>
+            <div class="row">
+                <div class="col-6">
+                    <h2>
+                        JS
+                    </h2>
+                </div>
+                <div class="col-6 offset-5 img-thumbnail">
+                    <a href="index.html" class="img-thumbnail-content"></a>
+
+                </div>
+
+            </div>
+
         </div>
         <div class="col-sm-4">
             <h5 class="uppercase-special general-sub">Download</h5>
@@ -86,13 +94,18 @@
 </header>
 
 <!--MENU STICKY BLUE-->
-<div class="menu-sticky container-fluid menu-back">
+<div class="menu-sticky container-fluid">
     <div class="row no-gutters justify-content-between">
         <div class="col-md-4 bg-color-profile alert-container blank-container">
             <!--            TWO-->
             <div class="row no-gutters">
                 <div class="col">
-                    <ul id="nav-left" class=" nav list-inline menu-container row row-cols-1 row-cols-sm-2">
+                    <ul id="nav-left" class="nav list-inline menu-container row row-cols-1 row-cols-sm-2">
+                        <li class="nav-item list-inline-item hey current col">
+                            <div id="hey" class="menu-item hey current">
+                                <a class="hey cur" href="#"><span>Joem</span></a>
+                            </div>
+                        </li>
                         <li id="contact" class="col-12 col-sm-12 ui-menu-color-background list-inline-item alert-button-item">
                             <button type="button" class="btn btn-outline btn--cta btn--red">
                                 <a href="#" >Get in touch</a>
@@ -107,10 +120,10 @@
             <!--            FOUR-->
             <div class="row no-gutters">
                 <div class="col menu-height">
-                    <ul id="nav" class="nav list-inline menu-container row row-cols-2 row-cols-sm-4 menu-transparent">
+                    <ul id="nav" class="nav list-inline menu-container row row-cols-2 row-cols-sm-4">
                         <li class="nav-item list-inline-item home current col">
                             <div id="home" class="menu-item home current pseudo">
-                                <a class="hom cur invisible" href="#"><span>About</span></a>
+                                <a class="hom cur" href="#"><span>About</span></a>
                             </div>
                         </li>
                         <li class="nav-item list-inline-item resume current col">
@@ -139,6 +152,170 @@
 
 <!--RESUME SECTION-->
 <section class="container-fluid">
+    <div class="row">
+        <div class="col-md-4 bg-color-work-history left-section-column container-border">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="history-heading uppercase-special">
+                        Proficiency
+                    </h3>
+                </div>
+            </div>
+            <div class="row progress-section">
+                <div class="col lp-8">
+                    <div class="progress">
+                        <div class="progress-bar bg--light" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+                            <span class="sr-only">90% Complete</span><span class="progress-type">HTML / HTML5</span>
+                        </div>
+                    </div>
+                    <div class="progress-type">
+                        <p>HTML/HTML5</p>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg--light" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                            <span class="sr-only">80% Complete</span><span class="progress-type">CSS</span>
+                        </div>
+                    </div>
+                    <div class="progress-type">
+                        <p>CSS/CSS3</p>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg--light" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;">
+                            <span class="sr-only">70% Complete</span><span class="progress-type">JS</span>
+                        </div>
+                    </div>
+                    <div class="progress-type">
+                        <p>JavaScript/JQuery</p>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg--light" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                            <span class="sr-only">80% Complete</span><span class="progress-type">Python</span>
+                        </div>
+                    </div>
+                    <div class="progress-type">
+                        <p>Python/Django</p>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg--light" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                            <span class="sr-only">80% Complete</span><span class="progress-type">SQL</span>
+                        </div>
+                    </div>
+                    <div class="progress-type">
+                        <p>SQL/NoSQL</p>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg--light" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                            <span class="sr-only">80% Complete</span><span class="progress-type">MatLab/Octave</span>
+                        </div>
+                    </div>
+                    <div class="progress-type">
+                        <p>MatLab/Octave</p>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg--light" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                            <span class="sr-only">80% Complete</span><span class="progress-type">Revit</span>
+                        </div>
+                    </div>
+                    <div class="progress-type">
+                        <p>BIM/Revit</p>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg--light" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                            <span class="sr-only">80% Complete</span><span class="progress-type">Revit</span>
+                        </div>
+                    </div>
+                    <div class="progress-type">
+                        <p>Rhino/CAD</p>
+                    </div>
+                </div>
+            </div>
+            <div class="history-items">
+                <div class="timeline-item" data-dates="01/2011 - 06/2011">
+                    <h4>griffin enright architects</h4>
+                    <p>Designer</p>
+                </div>
+                <div class="timeline-item" data-dates="05/2012 - 09/2012">
+                    <h4>caza architects</h4>
+                    <p>Designer</p>
+                </div>
+                <div class="timeline-item" data-dates="08/2013 - 08/2015">
+                    <h4>herzog & de meuron</h4>
+                    <p>Architectural Assistant</p>
+                </div>
+                <div class="timeline-item" data-dates="11/2016 - 04/2020">
+                    <h4>foster + partners</h4>
+                    <p>Architectural Designer</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8 bg-color-skills section-column resume-column">
+            <div class="row">
+                <div class="col">
+                    <h3 id="tab-two" class="section-heading section-heading-about-me uppercase-special">Skills</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="three-reasons-icon fa fa-tv" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="three-reasons-heading">•Front End</h4>
+                            <p class="three-reasons-p">
+                                I am skilled in User Experience Design using the trinity of HTML/CSS/JavaScript.
+                                I also have extensive experience in Front End Frameworks such as Angular and React.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="three-reasons-icon fa fa-cogs" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-10">
+                            <h4 class="three-reasons-heading">Back End</h4>
+                            <p class="three-reasons-p">
+                                I specialize in data-driven web applications. Many of my projects utilize
+                                document-based data. I use Python and Django in conjunction with MongoDB
+                                to process and present information
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row progress-section">
+                <div class="col">
+                    <div class="progress">
+                        <div class="progress-bar bg--light" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+                            <span class="sr-only">90% Complete</span><span class="progress-type">HTML / HTML5</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg--light" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                            <span class="sr-only">80% Complete</span><span class="progress-type">CSS / CSS3</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg--light" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;">
+                            <span class="sr-only">70% Complete</span><span class="progress-type">JavaScript / jQuery</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg--light" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                            <span class="sr-only">80% Complete</span><span class="progress-type">Django / Python</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg--light" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+                            <span class="sr-only">80% Complete</span><span class="progress-type">SQL / NoSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="row">
         <div class="col-md-4 bg-color-work-history left-section-column container-border">
             <div class="row">
