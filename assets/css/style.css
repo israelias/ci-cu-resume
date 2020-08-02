@@ -609,17 +609,55 @@ ul div.hey:after {
     right: -31px;
 }
 
-ul div.resume.pseudo:before {
-    left: -63px;
-    background: #1D49B8;
-    /*border-top-left-radius: 20px;*/
-    /*border-left: 1px solid #222;*/
-}
+/*PSEUDO FOR RESUME PAGE*/
+/*ul div.resume.pseudo:before {*/
+/*    left: -63px;*/
+/*    background: #1D49B8;*/
+/*    border-bottom-left-radius: 10px;*/
+/*    border-bottom-left-radius: 10px;*/
+/*    -webkit-border-bottom-left-radius: 10px;*/
+/*    -moz-border-radius-bottomleft: 10px;*/
+/*    border-bottom-left-radius: 10px;*/
+/*    !*border-top-left-radius: 20px;*!*/
+/*    !*border-left: 1px solid #222;*!*/
+/*}*/
 
 ul div.home.pseudo:after {
     content: none;
 }
 
+/*PSEUDO FOR COLLAB PAGE*/
+ul div.resume.pseudo:after {
+
+}
+
+/*PSEUDO FOR COLLAB PAGE*/
+ul div.collab.pseudo:before {
+    left: -63px;
+    background: #B8A90B;
+    /*border-top-left-radius: 20px;*/
+    /*border-left: 1px solid #222;*/
+}
+
+
+/*ul div.collab.pseudo:before {*/
+/*    content: none;*/
+/*}*/
+
+/*ul div.collab.pseudo:before*/
+
+
+/*PSEUDO FOR DL PAGE*/
+ul div.download.pseudo:before {
+    width: 33px;
+    height: 31px;
+    right: -31px;
+    left: -32px;
+    background: #423C3A;
+    /*border-left: 1px solid #423C3A;*/
+    /*border-top-left-radius: 20px;*/
+    /*border-left: 1px solid #222;*/
+}
 
 /*PSEUDO CIRCLE*/
 
@@ -681,9 +719,33 @@ a.res.pseudo-1:before {
     border-bottom-color: #B84A30;
     background-color: #1D49B8;
 }
-/*ul div.home.pseudo:before {*/
+
+/*ul div.resume.pseudo:before {*/
 /*    visibility: hidden;*/
 /*}*/
+
+a.coll.pseudo-1:before {
+    right: -66px;
+    border-bottom-left-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    /*border-left-color: #B84A30;*/
+    border-bottom-color: #1D49B8;
+    background-color: #B8A90B;
+}
+
+/*a.dow.pseudo-1:before {*/
+/*    right: -66px;*/
+/*    border-bottom-left-radius: 28px;*/
+/*    -webkit-border-bottom-left-radius: 28px;*/
+/*    -moz-border-radius-bottomleft: 28px;*/
+/*    !*border-left-color: #B84A30;*!*/
+/*    border-bottom-color: #B8A90B;*/
+/*    background-color: #423C3A;*/
+
+/*}*/
+
+
 ul div.home.pseudo:after {
     content: "";
     position: absolute;
@@ -701,6 +763,34 @@ ul div.home.pseudo:after {
     /*border-top-left-radius: 20px;*/
     /*border-left: 1px solid #222;*/
 }
+/*PSEUDO FOR COLLAB, HIDE FOR RESUME*/
+ul div.resume.pseudo:after {
+    content: "";
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    background: #1D49B8;
+    overflow: hidden;
+    /*border-bottom: 1px solid ;*/
+    -webkit-background-clip: padding-box;
+    right: 1px;
+    border-bottom-right-radius: 28px;
+    -webkit-border-bottom-right-radius: 28px;
+    -moz-border-radius-bottomright: 28px;
+
+    /*border-top-left-radius: 20px;*/
+    /*border-left: 1px solid #222;*/
+}
+
+
+/*PSEUDO FOR COLLAB PAGE*/
+/*ul div.resume.pseudo:after {*/
+/*    content: none;*/
+/*}*/
+
+/*ul div.home.pseudo:after {*/
+/*    content: none;*/
+/*}*/
 
 ul .menu-item .res:after {
     width: 33px;
@@ -1057,14 +1147,16 @@ button span .button-link {
 }
 
 .timeline-item h4 {
-    font-family: "Major Mono Display", sans-serif;
-    font-weight: bolder;
-    font-size: 21px;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 700;
+    font-size: 1.12rem;
+    letter-spacing: -1px;
+    word-spacing: -4px;
 }
 
 .timeline-item p {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-family: "Inconsolata", sans-serif;
+    font-size: 1rem;
     font-weight: normal;
     padding: 0;
     margin: 0;
@@ -1077,7 +1169,7 @@ button span .button-link {
     top: 3em;
     display: block;
     font-family: "Major Mono Display", monospace;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 0.8em;
     padding: 0;
     margin: 0;
@@ -1103,3 +1195,19 @@ button span .button-link {
 .history-items {
     margin-bottom: 30px;
 }
+
+
+/*---------*/
+
+/*.container div {*/
+/*    display: inline-block;*/
+/*}*/
+
+/*@media screen and (max-width: 531px) {*/
+/*    .container { display: flex; flex-flow: column; }*/
+/*    .five { order: 5; }*/
+/*    .four { order: 4;  }*/
+/*    .three { order: 3; }*/
+/*    .two { order: 2; }*/
+/*    .one { order: 1 }*/
+/*}*/
