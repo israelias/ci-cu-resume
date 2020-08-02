@@ -1,9 +1,23 @@
-# User-Centric Web Resume
+# Web Resume 
+### User-Centric Front End Web Development
+A mini project as part of my coursework at Code Institute. 
+This was a small walk-through exercise that I tried to take a step further. 
+The site uses HTML, CSS and Bootstrap components only.
 
-A mini project with Code Institute using HTML, CSS and Bootstrap components.
+A work in progress.
+
+This really taught me the breadth and scope of HTML and CSS frameworks. 
+The further I went, the more I learned about the constraints and the opportunities of a defined set of tools. 
+
+After a couple of weeks I tried to find a fun middle ground, following the elementary-ness with a meta-aesthetic train of thought. 
 
 [View the live project here.](https://israelias.github.io/ci-uc-resume/)
 
+
+
+
+
+##### Disregard the template below (material forthcoming)
 [ IMAGE ]
 
 #### Project Status: 
@@ -120,6 +134,7 @@ The project was deployed to GitHub Pages using the following steps...
 - The image
 - Bootstrap
 - Template from CI
+- [Icon Hover](https://github.com/IanLunn/Hover/#using-icon-effects)
 
 ### Content
 
